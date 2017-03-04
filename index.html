@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>TriviaGame</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <script src="https://use.fontawesome.com/e3f869f858.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="container-fluid">
+			<h1 class="text-center"><strong>Trivia Game</strong></h1>
+	</div>
+
+	<div class="container content">
+		<section class="data">
+
+			<div class="time">
+				<p class="counter"></p>
+			</div>
+
+			<form action="#">
+				<label>Which 90's Boy Band released the song Bye, Bye, Bye ?</label><br>
+				<input type="radio" name="music" value="98 degrees"> 98 degrees <br>
+				<input type="radio" name="music" value="Backstreet Boys"> Backstreet Boys <br>
+				<input type="radio" name="music" value="NSYNC"> NSYNC <br>
+				<input type="radio" name="music" value="Nirvana"> Nirvana <br>
+
+				<label>What was the name of Rocko's dog on Rocko's Modern Life ?</label><br>
+				<input type="radio" name="tv" value="Spot"> Spot <br>
+				<input type="radio" name="tv" value="Spunky"> Spunky <br>
+				<input type="radio" name="tv" value="Rascal"> Rascal <br>
+				<input type="radio" name="tv" value="Rudy"> Rudy <br>
+
+				<label>What year was Jurassic Park released ?</label><br>
+				<input type="radio" name="movie" value="1991"> 1991 <br>
+				<input type="radio" name="movie" value="1992"> 1992 <br>
+				<input type="radio" name="movie" value="1993"> 1993 <br>
+				<input type="radio" name="movie" value="1994"> 1994 <br>
+
+			</form>
+
+		<button class="btn btn-primary done">DONE</button>
+
+		</section>
+
+<div class="result">
+			<p class="correct"></p>
+			<p class="incorrect"></p>
+			<p class="empty"></p>
+		</div>
+
+		<button class="btn btn-primary start">Start Game!</button>
+
+
+
+
+	</div>
+
+ 	
+
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>
